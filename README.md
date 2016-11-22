@@ -47,7 +47,10 @@ You might find the FPS Counter/HUD Display useful in Chrome developer tools desc
 * <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer.html">Reduce the size of text</a>
 * <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization.html">Optimize images</a>
 * <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching.html">HTTP caching</a>
-
+* main.js line 425: rewrote the changePizzaSizes() function to reduce the jank.
+* main.js line 443: optimized the for loop, as it was having some really unnecessary stuff, thanks to Cameron for that!
+* main.js line 517: calculating the number of pizzas dynamically according to height of screen, reducing the number of pizzas in the background.
+* pizza.html line 39: Resizing the pizzeria.jpg image leading to optimization of the page.
 ### Customization with Bootstrap
 The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstrap</a> framework. All custom styles are in `dist/css/portfolio.css` in the portfolio repo.
 
