@@ -1,2 +1,0 @@
-main.js 425: rewrote the changePizzaSizes() function to reduce the jank.
-main.js 443: optimized the for loop, as it was having some really unnecessary stuff, thanks to Cameron for that!
