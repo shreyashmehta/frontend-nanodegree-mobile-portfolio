@@ -57,6 +57,9 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * Inlinig the render blocking CSS to the index.html file so that it loads faster and also defering the print.css stylesheet so that it loads only when it is required and prevents render blocking.
 * To increase the computational efficiency and maintain a consistent frame rate of 60fps I did the following: 
 1) main.js line 425: rewrote the changePizzaSizes() function to reduce the jank.
+
 2) main.js line 443: optimized the for loop, as it was having some really unnecessary stuff, thanks to Cameron for that!
+
 3) main.js line 520: calculating the number of pizzas dynamically according to height of screen, reducing the number of pizzas in the background.
+
 4) pizza.html line 39: Resizing the pizzeria.jpg image leading to optimization of the page.
