@@ -52,7 +52,7 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
-### Personalized README
+## Personalized README
 # Inlinig the render blocking CSS to the index.html file so that it loads faster and also defering the print.css stylesheet so that it loads only when it is required and prevents render blocking.
 # To increase the computational efficiency and maintain a consistent frame rate of 60fps I did the following: 
 * main.js line 425: rewrote the changePizzaSizes() function to reduce the jank.
