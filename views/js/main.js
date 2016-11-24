@@ -517,7 +517,7 @@ document.addEventListener('DOMContentLoaded', function() {
   iHeight = window.screen.height
   var row = iHeight/32;
   var s = row*cols;
-  for (var i = 0; i < 200; i++) {
+  for (var i = 0; i < 24; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
